@@ -52,9 +52,9 @@ $banner=
 
 //$key1 = file_get_contents('https://pastebin.com/raw/ArdT2D9z');
 
-//$key1 = file_get_contents('https://pastebin.com/raw/Da0WrC3r');
+$key1 = file_get_contents('https://pastebin.com/raw/Da0WrC3r');
 //$key1 = file_get_contents('https://pastebin.com/raw/u9CtjrYZ');
-$key1 = file_get_contents('https://pastebin.com/raw/5iH7jDAT');//6
+//$key1 = file_get_contents('https://pastebin.com/raw/5iH7jDAT');//6
 //$key1 = file_get_contents('https://pastebin.com/raw/50VcksZs');//5
 //$key1 = file_get_contents('https://pastebin.com/raw/PH6HAMi8');//3
 //$key1 = file_get_contents('https://pastebin.com/raw/MCbP2GMK');//
