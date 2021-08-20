@@ -94,7 +94,7 @@ for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- "
 
 
 
-print $trang."Bae!Bạn Là 1 Người Chạy Tool Free Chân Chính\n";
+print $trang."Vượt Link Cũng Là 1 Hình Thức Donate\n";
 for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print "\n";
  print $luc."Tool Trao Đổi Sub\n";
  for($v=0;$v<= 5;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print "\n";
