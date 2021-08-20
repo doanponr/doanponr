@@ -54,32 +54,7 @@ $ngay = date("d-m-Y");
 for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
 print $luc."Vượt Link Cũng Là 1 Hình Thức Donate$trang -_-\n";
 for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
-print $luc."Link Lấy Key Free:$trang http://bblink.com/keyfree24h\n";
-for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
-for($j = 4;$j> 0;$j--){
-  print $luc."Chuyển Hướng Đến Trang Lấy Key Sau: $do [$den $j$do ]";
-  sleep(1);
-  print "\r";
-  print "                                          \r";
-}
-system("termux-open-url  http://bblink.com/keyfree24h");
-print $luc."Nhập Key: $vang";
-$nhapkey = trim(fgets(STDIN));
-if ($nhapkey == $key1){
-	print $luc."Key Đúng\n";
-	print $vang."Hạn Key:24h\n";
-	sleep(1);
-	}
-	elseif ($nhapkey == $key2){
-		print $luc."Key Đúng\n";
-		print $vang."Bạn Đang Vào Tool Với Key Admin\n";
-		sleep(1);
-	
-	
-	}else{
-		print $do."Key Bạn Nhập Sai Rồi\n"; 
-		exit;}
-usleep(500000);
+ 
 @system('clear');
  
 
